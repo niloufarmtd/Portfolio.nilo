@@ -242,3 +242,45 @@ section {
   border: 1px solid #d0ddff;
 }
 
+/* EXPERIENCE SECTION */
+#experience {
+  background: #f7f7fb;
+}
+
+#experience h2 {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 3rem;
+  color: #222;
+}
+
+.timeline {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.item {
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+  margin-bottom: 1.5rem;
+  border-left: 4px solid #0b74de;
+}
+
+.item h4 {
+  font-size: 1.3rem;
+  color: #222;
+  margin-bottom: 0.5rem;
+}
+
+.item p {
+  margin-bottom: 0.5rem;
+  color: #666;
+}
+
+.item em {
+  color: #888;
+  font-size: 0.9rem;
+}
+
