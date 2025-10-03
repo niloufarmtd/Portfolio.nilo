@@ -590,8 +590,8 @@ section {
   }
   
   .hero-image img {
-    width: 80px !important;
-    height: 80px !important;
+    width: 200px !important;
+    height: 200px !important;
   }
   
   .hero .btn {
