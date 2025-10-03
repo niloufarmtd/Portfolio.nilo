@@ -79,5 +79,68 @@ a, .btn {
   font-size: 1.5rem;
   cursor: pointer;
 }
+/* SECTIONS */
+section {
+  padding: 4rem 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+/* HERO SECTION */
+#home {
+  background: linear-gradient(135deg, #f7f7fb 0%, #e8f0fe 100%);
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  align-items: center;
+}
+
+.hero-text {
+  padding-right: 2rem;
+}
+
+.section__text__p1 {
+  color: #666;
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: 600;
+  color: #222;
+  margin-bottom: 1rem;
+  line-height: 1.2;
+}
+
+.section__text__p2 {
+  font-size: 1.5rem;
+  color: #0b74de;
+  margin-bottom: 1.5rem;
+  font-weight: 500;
+}
+
+.hero-image {
+  display: flex;
+  justify-content: center;
+}
+
+.hero-image img {
+  width: 350px;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+}
 
 
