@@ -566,8 +566,8 @@ section {
   }
   
   .hero-image img {
-    width: 170px !important;
-    height: 170px !important;
+    width: 250px !important;
+    height:250px !important;
     object-fit: cover !important;
   }
   
